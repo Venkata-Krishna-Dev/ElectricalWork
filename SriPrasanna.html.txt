@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sri Prasanna Steel Traders | Iron & Steel Suppliers in Samalkot</title>
+
+<!-- SEO -->
+<meta name="description" content="Sri Prasanna Steel Traders - Best Iron & Steel Suppliers in Samalkot, Andhra Pradesh. Iron rods, nails, fencing, steel pipes and hardware materials.">
+<meta name="keywords" content="Sri Prasanna Steel Traders, iron rods, steel suppliers, nails, fencing, steel pipes, Samalkot">
+<meta name="author" content="Sri Prasanna Steel Traders">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+html{scroll-behavior:smooth;}
+body{background:#f5f7fb;color:#111827;}
+
+/* HEADER */
+header{
+    background:linear-gradient(120deg,#0f172a,#1f2937);
+    color:white;
+    padding:16px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.logo{display:flex;align-items:center;gap:12px;}
+.logo img{width:45px;}
+.logo h1{font-size:22px;}
+
+nav a{
+    color:#e5e7eb;
+    text-decoration:none;
+    margin:0 12px;
+    font-weight:500;
+    transition:.3s;
+}
+nav a:hover{color:#d4af37;}
+
+/* HERO */
+.hero{
+    height:420px;
+    background:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("https://wallpapers.com/images/hd/stack-of-iron-rods-up-close-xsbxe85rkpcrf852.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+.hero h2{font-size:42px;}
+.hero p{margin:12px 0;font-size:18px;}
+.hero button{
+    background:#d4af37;
+    border:none;
+    padding:12px 26px;
+    border-radius:30px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+.hero button:hover{background:white;color:#111827;}
+
+/* HIGHLIGHT */
+.highlight{
+    background:#d4af37;
+    text-align:center;
+    padding:12px;
+    font-weight:600;
+}
+
+/* SECTION */
+section{
+    max-width:1200px;
+    margin:60px auto;
+    padding:0 20px;
+}
+h2{text-align:center;font-size:32px;margin-bottom:35px;}
+h2::after{
+    content:"";
+    width:80px;
+    height:4px;
+    background:#d4af37;
+    display:block;
+    margin:10px auto;
+}
+
+/* PRODUCTS */
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+.product{
+    background:white;
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+.product:hover{transform:translateY(-8px);}
+.product img{width:100%;height:220px;object-fit:cover;}
+.product div{text-align:center;padding:14px;font-weight:600;}
+
+/* ABOUT */
+.about{
+    background:white;
+    padding:35px;
+    border-radius:14px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    text-align:center;
+    line-height:1.7;
+}
+
+/* CONTACT */
+.contact-box{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+.contact-info, form{
+    background:white;
+    padding:28px;
+    border-radius:14px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+.contact-info p{margin:10px 0;font-size:16px;}
+form input, form textarea{
+    width:100%;
+    padding:12px;
+    margin:8px 0;
+    border-radius:8px;
+    border:1px solid #ddd;
+}
+form button{
+    background:#111827;
+    color:white;
+    border:none;
+    padding:12px 22px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+form button:hover{background:#d4af37;color:#111827;}
+
+/* MAP */
+.map iframe{
+    width:100%;
+    height:320px;
+    border:none;
+    border-radius:14px;
+    margin-top:25px;
+}
+
+/* FLOAT BUTTONS */
+.float-btn{
+    position:fixed;
+    right:20px;
+    padding:14px 20px;
+    border-radius:50px;
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+}
+.whatsapp{bottom:90px;background:#16a34a;}
+.call{bottom:20px;background:#2563eb;}
+
+/* FOOTER */
+footer{
+    background:#0f172a;
+    color:#d1d5db;
+    text-align:center;
+    padding:18px;
+    margin-top:60px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    header{flex-direction:column;text-align:center;}
+    .hero h2{font-size:30px;}
+    .contact-box{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">
+<img src="https://cdn-icons-png.flaticon.com/512/2942/2942789.png" alt="Steel Logo">
+<h1>Sri Prasanna Steel Traders</h1>
+</div>
+<nav>
+<a href="#products">Products</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero">
+<div>
+<h2>Premium Iron, Hardware & Steel Suppliers</h2>
+<p>Quality Materials • Best Prices • Trusted Service</p>
+<button onclick="location.href='#contact'">Contact Us</button>
+</div>
+</div>
+
+<div class="highlight">
+Iron Rods • Nails • Fencing • Steel Pipes • Hardware Materials
+</div>
+
+<section id="products">
+<h2>Our Products</h2>
+<div class="products">
+
+<div class="product">
+<img src="https://wallpapers.com/images/hd/stack-of-iron-rods-up-close-xsbxe85rkpcrf852.jpg" alt="Iron Rods">
+<div>Iron Rods</div>
+</div>
+
+<div class="product">
+<img src="https://c8.alamy.com/comp/2B8HDYD/set-of-iron-nails-isolated-on-white-background-2B8HDYD.jpg" alt="Iron Nails">
+<div>Iron Nails</div>
+</div>
+
+<div class="product">
+<img src="https://www.hooverfence.com/mas_assets/cache/image/1/3/2/a/78498.Jpg" alt="Fencing Materials">
+<div>G.I Fencing Link Mess</div>
+</div>
+
+<div class="product">
+<img src="https://5.imimg.com/data5/SELLER/Default/2023/9/345503299/RF/AS/EP/72014412/whatsapp-image-2023-09-20-at-10-33-15-am-1-1000x1000.jpeg">
+<div>SS Nails</div>
+</div>
+
+<div class="product">
+<img src="https://th.bing.com/th/id/OIP.-3iw__hlujJe61jMmrhKuAHaD0?w=327&h=179&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Steel Pipes">
+<div>Steel Pipes</div>
+</div>
+
+<div class="product">
+<img src="https://image.made-in-china.com/2f0j00APMYSHBdGZbo/Square-Welded-Wire-Mesh-1-2m-X-30m-Galvanized-Mesh-Roll.webp">
+<div>Square Welded Wire Mesh</div>
+</div>
+
+<div class="product">
+<img src="https://tse2.mm.bing.net/th/id/OIP.UMpF--tP85ugfGB6MAIlGAAAAA?pid=ImgDet&w=184&h=138&c=7&dpr=1.3&o=7&rm=3">
+<div>Mosquito Mess</div>
+</div>
+
+<div class="product">
+<img src="https://5.imimg.com/data5/SELLER/Default/2023/11/362605108/XI/OQ/LG/57740868/chain-link-mesh-1000x1000.jpg">
+<div> Chicken mess</div>
+</div>
+
+
+<div class="product">
+<img src="https://5.imimg.com/data5/MF/VV/DK/SELLER-80991342/iron-black-tagari.jpg" alt="Iron Ghamela">
+<div>Iron Ghamela</div>
+</div>
+
+<div class="product">
+<img src="https://image.made-in-china.com/202f0j00LRJcoCzPhMup/Construction-Gi-Binding-Wire.webp" alt="Binding Wire">
+<div>G.I Wire</div>
+</div>
+
+<div class="product">
+<img src="https://assets.bldnxt.in/catalog/product/cache/1/image/a77c1558d860704591e3027d1ebed402/i/d/idea483139_bind0001_5991342081f48.jpg">
+<div>Binding Wire</div>
+</div>
+
+
+<div class="product">
+<img src="https://5.imimg.com/data5/SELLER/Default/2021/9/BB/CJ/NJ/96370064/2f42043c-a721-4a2d-8239-304d305e7f43-1000x1000.jpg" alt="Plastic Tubs">
+<div>Plastic Ghamela </div>
+</div>
+
+<div class="product">
+<img src="https://5.imimg.com/data5/ANDROID/Default/2021/9/SG/WP/XY/2145509/img-20210923-195939-jpg.jpg" alt="Sponge">
+<div>Sponge</div>
+</div>
+
+<div class="product">
+<img src="https://5.imimg.com/data5/SELLER/Default/2021/10/BH/EK/TL/45824123/ms-6013-welding-rod.jpg" alt="Welding Rod">
+<div>Welding Rod</div>
+</div>
+
+<div class="product">
+<img src="https://m.media-amazon.com/images/I/41wlqtwNNhL.jpg">
+<div> Support Clamp (L-Bend)</div>
+</div>
+
+
+<div class="product">
+<img src="https://m.media-amazon.com/images/I/51EBCUc44yL._AC_UF1000,1000_QL80_.jpg">
+<div> L-Clamp</div>
+</div>
+
+<div class="product">
+<img src="https://m.media-amazon.com/images/I/71COhRGs9oL._SL1280_.jpg">
+<div> Z-Clamps </div>
+</div>
+
+
+<div class="product">
+<img src="https://m.media-amazon.com/images/I/71TqAp0-drL._SX522_.jpg">
+<div> PVC Coated Heavy Duty GI Wire Rope | Clothesline </div>
+</div>
+
+
+<div class="product">
+<img src="https://5.imimg.com/data5/ANDROID/Default/2023/9/345401860/OO/VN/JC/39367244/product-jpeg-500x500.jpg">
+ <div> Mangalam Cutting Blades</div>
+</div>
+
+<div class="product">
+ <img src="https://5.imimg.com/data5/IOS/Default/2022/12/HX/VK/YD/61152041/product-jpeg.png">
+<div> Mangalam Cutting Blades</div>
+</div>
+
+
+<div class="product">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsNfAGsujwaYmvazJR_DIYWLvh5GpvejBTvMcEefX7-w&s">
+ <div> U-Hook Long</div>
+</div>
+
+<div class="product">
+<img src="https://5.imimg.com/data5/JO/BE/FK/SELLER-3304062/fan-u-centring-hook-clamp-250x250.jpg">
+<div>Fan U-Hook </div>
+</div>
+
+<div class="product">
+<img src="https://5.imimg.com/data5/SELLER/Default/2023/4/298682237/EE/GH/GC/78880238/stainless-steel-j-bolt-1000x1000.jpg">
+<div> J-Bolts </div>
+</div>
+
+
+<div class="product">
+ <img src="https://m.media-amazon.com/images/I/81CA6vIbsYL._AC_.jpg">
+<div> panel pins</div>
+</div>
+
+<div class="product">
+ <img src="https://images.jdmagicbox.com/quickquotes/images_main/2-5mm-wire-barbed-wire-2217338654-8ufa1c50.jpg">
+<div> Barbed wire</div>
+</div>
+
+<div class="product">
+ <img src="https://5.imimg.com/data5/FK/VS/VG/SELLER-28064077/ms-tubes-jpg-500x500.jpg">
+<div> MS-Pipes and Rods </div>
+</div>
+
+</div>
+</section>
+
+<section id="about">
+<h2>About Us</h2>
+<div class="about">
+Sri Prasanna Steel Traders is a trusted supplier of iron, steel, nails, fencing and hardware materials.<br>
+We provide high-quality products at competitive prices.<br><br>
+📍 Address: 11-1-28/B, Beside Vivekanand School, Mehar Complex, Samalkot, Andhra Pradesh – 533440.
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+
+<div class="contact-box">
+
+<div class="contact-info">
+<p><b>Company:</b> Sri Prasanna Steel Traders</p>
+<p><b>Phone:</b> +91 99491 14488</p>
+<p><b>WhatsApp:</b> +91 99491 14488</p>
+<p><b>Address:</b> 11-1-28/B, Beside Vivekanand School, Mehar Complex, Samalkot, Andhra Pradesh – 533440</p>
+</div>
+
+<form action="https://formspree.io/f/mzdvnyye" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<input type="text" name="mobile" placeholder="Your Mobile Number" required>
+<textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+
+</div>
+
+<div class="map">
+<iframe 
+src="https://www.google.com/maps?q=11-1-28/B,Beside%20Vivekanand%20School,Mehar%20Complex,Samalkot,Andhra%20Pradesh,533440&output=embed" 
+allowfullscreen="" 
+loading="lazy">
+</iframe>
+</div>
+
+</section>
+
+<a class="float-btn whatsapp" href="https://wa.me/919949114488" target="_blank">
+<i class="fa-brands fa-whatsapp"></i> WhatsApp
+</a>
+
+<a class="float-btn call" href="tel:+919949114488">
+<i class="fa-solid fa-phone"></i> Call Now
+</a>
+
+<footer>
+<p>© 2026 Sri Prasanna Steel Traders</p>
+</footer>
+
+</body>
+</html>
+
